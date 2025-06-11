@@ -14,9 +14,7 @@ Aplicamos el **Open/Closed Principle (OCP)** de SOLID, de modo que la clase prin
 
 ## Reflexión sobre OCP
 > El OCP establece que “las entidades de software deben estar abiertas para su extensión, pero cerradas para su modificación”.
-> > - **Antes**: modificar `NotificationService` para añadir cada nuevo canal.
-> - **Después![img.png](img.png)**: basta con crear una nueva clase que implemente `Notification`, sin tocar código existente.
-> - ![img_1.png](img_1.png)
+![img.png](img.png)
 ## Ejecución
 ```bash
 javac -d bin src/com/tuempresa/solid/ocp/notification/*.java src/com/tuempresa/solid/ocp/Main.java
